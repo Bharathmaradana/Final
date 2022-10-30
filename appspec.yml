@@ -1,7 +1,13 @@
 version: 0.0
 os: linux
 files:
-  - source: public/index.html
+  - source: public
+    destination: /var/www/html/
+  - source: src
+    destination: /var/www/html/
+  - source: /package-lock.json
+    destination: /var/www/html/
+  - source: /package.json
     destination: /var/www/html/
 hooks:
   BeforeInstall:
