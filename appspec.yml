@@ -9,6 +9,8 @@ files:
     destination: /var/www/html/
   - source: /package.json
     destination: /var/www/html/
+  - source: public/index.html
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
