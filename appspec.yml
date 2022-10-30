@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: public
-    destination: /var/www/html/
+    destination: /var/www/html/public
   - source: src
-    destination: /var/www/html/
+    destination: /var/www/html/src
   - source: /package-lock.json
     destination: /var/www/html/
   - source: /package.json
